@@ -1,0 +1,50 @@
+.App {
+  display: flex;
+  background-color: #fd96b4;
+  color: white;
+}
+
+.left__side {
+  height: 100vh;
+  width: 40%;
+}
+.right__side {
+  height: 100vh;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.first__header {
+  font-size: 55px;
+  font-weight: bold;
+  display: block;
+}
+
+.second__header {
+  font-size: 55px;
+  font-weight: 200;
+}
+
+.desc__paragraph {
+  font-size: 12px;
+  max-width: 350px;
+  font-weight: 700;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 15px;
+  width: 250px;
+}
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  font-weight: 800;
+}
