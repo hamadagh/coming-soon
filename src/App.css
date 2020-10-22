@@ -24,17 +24,20 @@
   font-size: 55px;
   font-weight: bold;
   display: block;
+  cursor: default;
 }
 
 .second__header {
   font-size: 55px;
   font-weight: 200;
+  cursor: default;
 }
 
 .desc__paragraph {
   font-size: 12px;
   max-width: 350px;
   font-weight: 700;
+  cursor: default;
 }
 
 input {
@@ -57,11 +60,15 @@ button {
   font-size: 15px;
   font-weight: 700;
   margin-top: 40px;
+  cursor: default;
 }
 .icons {
   display: flex;
   width: 100px;
   justify-content: space-between;
+}
+.icon {
+  cursor: pointer;
 }
 @media only screen and (max-width: 1100px) {
   .left__side {

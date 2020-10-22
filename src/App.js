@@ -28,9 +28,27 @@ function App() {
           <div className="icons__wrapper">
             <p className="icons__header">Get in touch</p>
             <div className="icons">
-              <img src={facebook} alt="facebook" width="25" height="25" />
-              <img src={twitter} alt="twitter" width="25" height="25" />
-              <img src={telegram} alt="telegram" width="25" height="25" />
+              <img
+                src={facebook}
+                alt="facebook"
+                width="25"
+                height="25"
+                className="icon"
+              />
+              <img
+                src={twitter}
+                alt="twitter"
+                width="25"
+                height="25"
+                className="icon"
+              />
+              <img
+                src={telegram}
+                alt="telegram"
+                width="25"
+                height="25"
+                className="icon"
+              />
             </div>
           </div>
         </div>
