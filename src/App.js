@@ -12,7 +12,7 @@ function App() {
         <img src={img} alt="hand" className="hand__image" />
       </div>
       <div className="right__side">
-        <div>
+        <div className="inner__wrapper">
           <span className="first__header">10% Discount</span>
           <span className="second__header">for early birds</span>
           <p className="desc__paragraph">
