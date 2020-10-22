@@ -6,11 +6,15 @@
 
 .left__side {
   height: 100vh;
-  width: 40%;
+  width: 45%;
+  object-fit: contain;
+  overflow: hidden;
+}
+.hand__image {
 }
 .right__side {
   height: 100vh;
-  width: 60%;
+  width: 55%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,13 +42,24 @@ input {
   border: none;
   border-radius: 5px;
   margin-right: 15px;
-  width: 250px;
+  width: 350px;
 }
 button {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  background-color: blue;
+  background-color: #6ba4b8;
   color: white;
   font-weight: 800;
+  cursor: pointer;
+}
+.icons__header {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+.icons {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
 }
